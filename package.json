@@ -1,0 +1,22 @@
+{
+  "name": "node-hangman",
+  "version": "1.0.0",
+  "description": "command line hangman game using node.js",
+  "main": "nodeHangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdaniellbc/node-hangman.git"
+  },
+  "author": "jdaniellbc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdaniellbc/node-hangman/issues"
+  },
+  "homepage": "https://github.com/jdaniellbc/node-hangman#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1"
+  }
+}
