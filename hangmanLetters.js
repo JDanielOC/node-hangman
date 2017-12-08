@@ -1,9 +1,9 @@
-var letter= function(character){
-    this.placeholder = '_';
-    this.letter =character;
+var Letter= function(character){
+    this.placeholder = '_ ';
+    this.letter = character;
     this.letterGuessed = false;
 }
 
 
 
-module.exports = letter;
+module.exports = Letter;
