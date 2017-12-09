@@ -1,5 +1,16 @@
-var letter = require('./letter');
+var Letter = require('./hangmanLetters.js');
 
-var word = function(gameWord){
+var Word = function (gameWord) {
+    //create array utilizing split and map
+    this.gameWord = gameWord.split().map(function (letterItem) { return new Letter(letterItem); });
+        // lookup using new to call constructor function
+        // object.value    object
+    this.checkGuess = function(userGuess) {
+        this.gameWord.forEach() //lookup forEach and loop through array of objects
+    }
+    
 
-}
+
+
+
+)
