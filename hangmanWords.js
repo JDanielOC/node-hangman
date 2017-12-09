@@ -6,11 +6,16 @@ var Word = function (gameWord) {
         // lookup using new to call constructor function
         // object.value    object
     this.checkGuess = function(userGuess) {
-        this.gameWord.forEach() //lookup forEach and loop through array of objects
-    }
+        this.gameWord.forEach(Word(2)
+        
+        
+         //lookup forEach and loop through array of objects
+        )};
     
 
 
 
 
-)
+}
+
+module.exports = Word;
