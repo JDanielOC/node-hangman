@@ -8,7 +8,6 @@ var Word = function (gameWord) {
         return new Letter(letterItem);
     });
     // lookup using new to call constructor function
-    // object.value    object
     this.checkGuess = function (userGuess) {
         this.gameWord.forEach(function (item) {
             if (userGuess === item.letter) {
@@ -22,9 +21,9 @@ var Word = function (gameWord) {
     this.displayChar = function () {
         this.gameWord.forEach(function (item) {
             if (item.letterGuessed = true) {
-                
+
             } else {
-                
+
             }
         });
         //lookup forEach and loop through array of objects
@@ -32,4 +31,3 @@ var Word = function (gameWord) {
 
 };
 module.exports = Word;
-

@@ -1,4 +1,4 @@
-var Letter= function(character){
+var Letter = function (character) {
     this.placeholder = '_ ';
     this.letter = character;
     this.letterGuessed = false;
