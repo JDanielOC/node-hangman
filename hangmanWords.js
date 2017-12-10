@@ -1,4 +1,5 @@
 var Letter = require('./hangmanLetters.js');
+var game = require('./nodeHangman.js')
 
 var Word = function (gameWord) {
     this.guessesLeft = 9;
@@ -31,3 +32,4 @@ var Word = function (gameWord) {
 
 };
 module.exports = Word;
+
