@@ -12,3 +12,6 @@ var guessesLeft = 9;
 var gameWord = lexicon[Math.floor(Math.random() * lexicon.length)];
 //log random word
 console.log(gameWord);
+
+console.log(this.gameWord.wordDisplay());
+

@@ -21,13 +21,11 @@ var Word = function (gameWord) {
     this.displayChar = function () {
         this.gameWord.forEach(function (item) {
             if (item.letterGuessed = true) {
-
+                //display letter instead of '_' and let player guess again. guessesLeft remains as-is.
             } else {
-
+                //leave '_' in place and guessesLeft decriments in the checkGuess function above.
             }
         });
-        //lookup forEach and loop through array of objects
     };
-
 };
 module.exports = Word;
